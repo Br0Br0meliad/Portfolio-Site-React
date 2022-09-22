@@ -1,7 +1,7 @@
 import React from "react";
 
-class Navbar extends React.Component {
-    render() {
+function Navbar() {
+  
     return (
       
         <div class="sidebar">
@@ -19,7 +19,7 @@ class Navbar extends React.Component {
             
       );
   }
-}
 
 
-export default function Navbar;
+
+export default Navbar;

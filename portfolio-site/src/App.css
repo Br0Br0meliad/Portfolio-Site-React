@@ -1,0 +1,11 @@
+body {
+    background-color: #282c34;
+    color: blue;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+  }
+
+  .proj-card {
+    background-color: aquamarine;
+  }

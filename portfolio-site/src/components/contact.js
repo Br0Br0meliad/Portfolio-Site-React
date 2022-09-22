@@ -1,7 +1,7 @@
 import React from "react";
 
-class Contact extends React.Component {
-    render() {
+function Contact() {
+    
     return (
         <section id="Contact">
             <h1>Reach me:</h1>
@@ -15,7 +15,7 @@ class Contact extends React.Component {
         </section>
         );
     }
-}
 
 
-export default function Contact;
+
+export default Contact;

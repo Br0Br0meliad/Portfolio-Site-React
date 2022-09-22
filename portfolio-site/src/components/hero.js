@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./navbar";
 
-class Hero extends React.Component {
-    render() {
+function Hero() {
+
     return (
         <section id="Hero">
         <Navbar />
@@ -15,6 +15,6 @@ class Hero extends React.Component {
         </section>
         );
     }
-}
 
-export default function Hero;
+
+export default Hero;

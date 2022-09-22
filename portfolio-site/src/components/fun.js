@@ -1,7 +1,7 @@
 import React from "react";
 
-class Fun extends React.Component {
-    render() {
+function Fun() {
+    
     return (
         <section id="Fun">
             <h1>Fun & Interests</h1>
@@ -18,6 +18,6 @@ class Fun extends React.Component {
         </section>
         );
     }
-}
 
-export default function Fun;
+
+export default Fun;
