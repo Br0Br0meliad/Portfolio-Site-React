@@ -19,22 +19,34 @@ function Projects() {
           <Row>
            <Col>
             <Card className="proj-card">
+            <Card.Img src="portfolio-site\assets\pexels-tima-miroshnichenko-7991579.jpg"/>
+            <Card.ImgOverlay>
             <Card.Title>Letterboxd Clone</Card.Title>
             <Card.Text>Created using React and React Bootstrap. It uses the OMDB API which allows the user to search and rate films.</Card.Text>
+            </Card.ImgOverlay>
             </Card>
            </Col>
 
            <Col>
             <Card className="proj-card">
+            <Card.Img 
+            width={180}
+            height={190}
+            src="portfolio-site\assets\pexels-elviss-railijs-bitāns-1389429.jpg"/>
+            <Card.ImgOverlay>
             <Card.Title>Diggr.io</Card.Title>
             <Card.Text>Website and landing page for fictional record store inventory management web app. Created using Bootstrap.</Card.Text>
+            </Card.ImgOverlay>
             </Card>
            </Col>
 
            <Col>
             <Card className="proj-card">
+            <Card.Img src="portfolio-site\assets\pexels-luis-quintero-2263816.jpg"/>
+            <Card.ImgOverlay>
             <Card.Title>Hopeful videogame</Card.Title>
-            <Card.Text>Indie JRPG style videogame currently in development. Uses Unity engine and scripting done in C#.</Card.Text>
+            <Card.Text>Indie JRPG style videogame currently in development. Uses Unity engine and scripting done in C#. Not yet released.</Card.Text>
+            </Card.ImgOverlay>
             </Card>
            </Col>
           </Row>

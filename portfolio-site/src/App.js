@@ -6,16 +6,19 @@ import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Fun from "./components/fun"
 import './App.css'
+import Container from "react-bootstrap/esm/Container";
 
 
 export default function App() {
   return (
-    <main>
+    
+    <Container className="parallax">
       <Hero />
       <About />
       <Projects />
       <Contact />
       <Fun />
-    </main>
+    </Container>
+   
   );
 }

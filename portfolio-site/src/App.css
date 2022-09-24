@@ -1,11 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;500&display=swap');
+
+:root {
+  --main: #332FD0;
+  --secondary: #9254C8;
+  --second-light: #E15FED;
+  --light: #6EDCD9;
+
+}
+
 body {
+    background-image: url("./assets/pexels-roman-odintsov-4871011.jpg");
     background-color: #282c34;
-    color: blue;
-    padding: 40px;
-    font-family: Arial;
-    text-align: center;
+    color: white;
+    padding: 0%;
+    font-family: 'Noto Sans Mono', monospace;;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+
+  .parallax {
+ 
+    
+  
+   
+    min-height: 3000px; 
+  
+    
+    
+  }
+
+#Hero{
+  color: white;
+  text-align: center;
+  min-height: 500px;
+}
+.glow {
+  font-size: 80px;
+  font-weight: 300;
+  animation: glow 1s ease-in-out infinite alternate;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+#About {
+  background-color: #568c9e;
+  margin-bottom: 100px;
+}
+
+#Projects {
+  background-color: #9254C8;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 
   .proj-card {
     background-color: aquamarine;
+  }
+
+
+  Card.ImgOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #568c9e;
   }
