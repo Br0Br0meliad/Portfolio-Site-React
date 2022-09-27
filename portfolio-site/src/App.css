@@ -9,51 +9,71 @@
 }
 
 body {
-    background-image: url("./assets/pexels-roman-odintsov-4871011.jpg");
-    background-color: #282c34;
-    color: white;
-    padding: 0%;
-    font-family: 'Noto Sans Mono', monospace;;
+    
+    background-color: #E8E7E7;
+    color: black;
 
+    font-family: 'Noto Sans Mono', monospace;;
+    margin: 0px;
+
+  }
+
+  .nav-item {
+    padding: 8px;
+  }
+
+
+
+  #Hero {
+ 
+    background-image: url("./assets/pexels-milo-textures-2768398.jpg");
+  
+   
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    color: white;
+    text-align: left;
+    min-height: 500px;
+  
+  
+
+  } 
+
+  .HeroText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
   }
 
-  .parallax {
- 
-    
-  
-   
-    min-height: 3000px; 
-  
-    
-    
-  }
-
-#Hero{
-  color: white;
-  text-align: center;
-  min-height: 500px;
-}
 .glow {
-  font-size: 80px;
+  font-size: 30px;
   font-weight: 300;
   animation: glow 1s ease-in-out infinite alternate;
   margin-top: 50px;
   margin-bottom: 50px;
+  
 }
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    text-shadow: 0 0 10px #fcc19a, 0 0 20px #fff, 0 0 30px #ff6320, 0 0 40px #ff6320, 0 0 50px #ff6320, 0 0 60px #ff6320, 0 0 70px #ff6320;
   }
   
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    text-shadow: 0 0 20px #fcc19a, 0 0 30px #ffa64d, 0 0 40px #ffa64d, 0 0 50px #ffa64d, 0 0 60px #ffa64d, 0 0 70px #ffa64d, 0 0 80px #ffa64d;
   }
 }
 
+.title {
+  font-size: 22px;
+  color:#fcc19a;
+  text-shadow: 0 0 10px #ff6320;
+}
 
 #About {
   background-color: #568c9e;

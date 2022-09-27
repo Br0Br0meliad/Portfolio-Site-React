@@ -1,25 +1,36 @@
 import React from "react";
+import Container from "react-bootstrap/esm/Container";
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-function Navbar() {
+function Navigation() {
   
     return (
-      
-        <div class="sidebar">
-          <button> <a class="active" href="#Intro">Intro</a> </button>
 
-          <button> <a href="#About-me">About Me</a> </button>
-
-          <button><a href="#Projects">Projects</a></button>
-
-          <button><a href="#Contacts-Resume">Reach Out</a></button>
-
-          <button><a href="#Fun-facts">Fun Facts</a></button>
-        </div>
-         
+      <Navbar>
+      <Container>
+        <Navbar.Brand href="#home">Arthur Godinez</Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+        <Nav.Item>
+          <Nav.Link href="/Projects">Projects</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-1">About</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-2">Reach out</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-3">Fun facts</Nav.Link>
+        </Nav.Item>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
             
       );
   }
 
 
 
-export default Navbar;
+export default Navigation;
