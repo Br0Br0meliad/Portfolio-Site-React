@@ -29,17 +29,15 @@ function Hero() {
         <Row>
             <Col md="auto"><span className="glow">&lt;/Hello&gt;</span></Col>
         </Row> 
-        </Container>
-        <Container className="arrow">
+        <Row>
             <Figure>
-      <Figure.Image
-        width={50}
-        height={50}
-        alt="171x180"
-        src={arrow}
-      />
-    </Figure>
+                height="45"
+                width="45"
+                src={arrow}
+            </Figure>
+        </Row>
         </Container>
+
         </section>
         );
     }

@@ -7,6 +7,7 @@ import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Fun from "./components/fun"
 import './App.css'
+import Container from "react-bootstrap/esm/Container";
 
 
 
@@ -15,11 +16,13 @@ export default function App() {
     
   <>
       <Navbar />
+    <Container className="main">
       <Hero />
       <Projects />
       <About />
       <Contact />
       <Fun />
+    </Container>
 </>
    
   );

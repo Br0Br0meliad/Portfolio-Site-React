@@ -9,7 +9,8 @@
 }
 
 body {
-    
+
+
     background-color: #E8E7E7;
     color:#fcc19a;
     text-shadow: 0 0 10px #ff6320;
@@ -19,9 +20,22 @@ body {
 
   }
 
+  .main {
+    background-image: url("./assets/pexels-milo-textures-2768398.jpg");
+  
+   
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+  }
+
   Navbar {
     color: black;
     text-shadow: none;
+    background-color:  #E8E7E7;
   }
   .nav-item {
     color: black;
@@ -33,14 +47,7 @@ body {
 
   #Hero {
  
-    background-image: url("./assets/pexels-milo-textures-2768398.jpg");
-  
-   
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 
     color: white;
     text-align: left;
