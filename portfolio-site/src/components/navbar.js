@@ -6,27 +6,27 @@ import Navbar from 'react-bootstrap/Navbar';
 function Navigation() {
   
     return (
+  <Navbar collapseOnSelect expand="lg">
+  <Container>
+  <Navbar.Brand href="#home">Arthur Godinez</Navbar.Brand>
+  <Navbar.Toggle />
+  <Navbar.Collapse className="justify-content-end responsive-navbar-nav">
+  <Nav.Item>
+    <Nav.Link href="/Projects">Projects</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link eventKey="link-1">About</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link eventKey="link-2">Reach out</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link eventKey="link-3">Fun facts</Nav.Link>
+  </Nav.Item>
+  </Navbar.Collapse>
+</Container>
+</Navbar>
 
-      <Navbar>
-      <Container>
-        <Navbar.Brand href="#home">Arthur Godinez</Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
-        <Nav.Item>
-          <Nav.Link href="/Projects">Projects</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-1">About</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-2">Reach out</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-3">Fun facts</Nav.Link>
-        </Nav.Item>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
             
       );
   }
@@ -34,3 +34,6 @@ function Navigation() {
 
 
 export default Navigation;
+
+
+

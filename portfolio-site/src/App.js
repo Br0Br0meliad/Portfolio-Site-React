@@ -7,20 +7,20 @@ import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Fun from "./components/fun"
 import './App.css'
-import Container from "react-bootstrap/esm/Container";
+
 
 
 export default function App() {
   return (
     
-    <Container fluid>
+  <>
       <Navbar />
       <Hero />
-      <About />
       <Projects />
+      <About />
       <Contact />
       <Fun />
-    </Container>
+</>
    
   );
 }
